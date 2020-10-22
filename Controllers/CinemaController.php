@@ -20,13 +20,15 @@ class CinemaController
     public function ShowAddView()
     {
         require_once(VIEWS_PATH."cinema-add.php");
+        //falta vista agregar cine con formulario
     }
 
     public function ShowListView()
     {
         $cinemaList = $this->cinemaDAO->getAll();
 
-        require_once(VIEWS_PATH."student-list.php");
+        require_once(VIEWS_PATH."cinema-list.php");
+        //falta vista listar los cines
     }
 
     public function Add($idCinema,$adress,$name,$room,$price)
