@@ -1,12 +1,12 @@
 <?php
-namespace config;
+namespace Config;
 
-class autoload{
+class Autoload{
     public static function Start()
     {
         spl_autoload_register(function($className)
         {
-            $classPath=dirname(__DIR__)."/".str_replace("\\","/",$className);
+            $classPath=ucwords(str_replace("\\","/",ROOT.$className."php"));
             include_once($classPath);
         });
     }

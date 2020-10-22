@@ -10,7 +10,7 @@ class Cinema{
     private $room;
     private $price;
 
-    public function __construct($idCinema,$adress,$name,$room,$price)
+    public function __construct($idCinema=" ",$adress="",$name=" ",$room=" ",$price=" ")
     {   
         $this->idCinema=$idCinema;
         $this->adress=$adress;

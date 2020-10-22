@@ -68,7 +68,7 @@ class movieDAO
     {
         $this->movieList=array();
 
-        $jsonContent = file_get_contents("https://api-themoviedb.org/3/discover/movie?api_key=94f7bed6f537dd0417d1e789ad334b87&language=en-US&sort_by=popularity.desc&include_video=false&page=1",true);
+        $jsonContent = file_get_contents("https://api-themoviedb.org/3/discover/movie?api_key=".API_KEY."&language=en-US&sort_by=popularity.desc&include_video=false&page=1",true);
 
         $arrayToDecode=($jsonContent) ? json_decode($jsonContent,true) : array();
 

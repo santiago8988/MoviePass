@@ -14,7 +14,7 @@ class cinemaDAO
         return $this->cinemaList;
     }
 
-    public function add(Cinema $newCinema)
+    public function Add(Cinema $newCinema)
     {
         $this->retrieveData();
         array_push($this->cinemaList,$newCinema);

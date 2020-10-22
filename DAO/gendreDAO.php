@@ -57,7 +57,7 @@ class gendreDAO
     {
         $this->movieList=array();
 
-        $jsonContent = file_get_contents("https://api.themoviedb.org/3/genre/movie/list?api_key=&language=en-US",true);
+        $jsonContent = file_get_contents("https://api.themoviedb.org/3/genre/movie/list?api_key=".API_KEY."&language=en-US",true);
 
         $arrayToDecode=($jsonContent) ? json_decode($jsonContent,true) : array();
 

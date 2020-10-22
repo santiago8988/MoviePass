@@ -4,17 +4,44 @@ namespace Controllers;
 
 use Models\Cinema as Cinema;
 use DAO\cinemaDAO as cinemaDAO;
-use Models\Movie as Movie;
+
 
 
 class CinemaController
 {
-    private $cinema;
+    private $cinemaDAO;
 
 
-    public function create($idCinema,$adress,$name,$room,$price)
+    public function __construct()
     {
-        
+        $this->cinemaDAO = new cinemaDAO();
+    }
+
+    public function ShowAddView()
+    {
+        require_once(VIEWS_PATH."cinema-add.php");
+    }
+
+    public function ShowListView()
+    {
+        $cinemaList = $this->cinemaDAO->getAll();
+
+        require_once(VIEWS_PATH."student-list.php");
+    }
+
+    public function Add($idCinema,$adress,$name,$room,$price)
+    {
+        $cinema= new Cinema();
+        $cinema->setIdCinema($idCinema);
+        $cinema->setAdress($adress);
+        $cinema->setName($name);
+        $cinema->setRoom($room);
+        $cinema->setPrice($price);
+
+        $this->cinemaDAO->Add($cinema);
+
+        $this->ShowAddView();
+
     }
 
 }
