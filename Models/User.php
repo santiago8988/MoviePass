@@ -13,13 +13,14 @@ class User {
     private $birthday;
     private $photo;
 
-        public function __construct ($email,$userName,$password,$gender,$birthday)
+        public function __construct ($email=" ",$userName=" ",$password=" ",$gender=" ",$birthday=" ",$photo=" ")
         {
             $this->email=$email;
             $this->userName=$userName;
             $this->password=$password;
             $this->gender=$gender;
             $this->birthday=$birthday;
+            $this->photo=$photo;
             $this->isAdmin=false;
             
         }
@@ -120,6 +121,19 @@ class User {
         public function setIsAdmin($isAdmin)
         {
            $this->isAdmin=$isAdmin;
+        }
+
+        /**
+         */
+        public function getPhoto()
+        {
+            return $this->photo;
+        }
+        /**
+         */
+        public function setPhoto($photo)
+        {
+            $this->photo=$photo;
         }
 }
 
