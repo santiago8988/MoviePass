@@ -8,13 +8,13 @@ class Router
 {
     public static function Route(Request $request)
     {
-        $controllerName = $request->getController();
+        $controllerName = $request->getController().'Controller';
 
         $methodName= $request->getMethod();
 
-        $methodParameters = $request->getParameter();
+        $methodParameters = $request->getParameters();
 
-        $controllerClassName = "Controllers". $controllerName;
+        $controllerClassName = "Controllers\\". $controllerName;
 
         $controller = new $controllerClassName;
 
