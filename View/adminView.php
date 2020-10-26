@@ -1,5 +1,6 @@
 <?php
 
+echo "hola soy el admiiii'";
 
 require_once("addCinema.php");
 
