@@ -20,9 +20,9 @@ class movieDAO
     {
         $this->movieList=array();
 
-        if(file_exists(dirname(__DIR__).'/Data/movies.json'))
+        if(file_exists(ROOT.'Data/movies.json'))
         {
-            $jsonContent= file_get_contents(dirname(__DIR__).'/Data/movies.json');
+            $jsonContent= file_get_contents(ROOT.'Data/movies.json');
 
             $arrayToDecode = ($jsonContent) ? json_decode($jsonContent,true) : array();
 
@@ -61,7 +61,7 @@ class movieDAO
 
         $jsonContent= json_encode($arrayToEncode,JSON_PRETTY_PRINT);
 
-        file_put_contents(dirname(__DIR__).'/Data/movies.json',$jsonContent);
+        file_put_contents(ROOT.'Data/movies.json',$jsonContent);
     }
 
     public function downloadData()
