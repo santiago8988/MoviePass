@@ -15,15 +15,15 @@
 
 <?php require_once("nav.php")?>
 
-<html>
 
-        <?php  echo ROOT ?>;
+
+        
         <form action="Admin/adminCinemas" method="get">
-<?php require_once("nav.php")?>;
+
 
 <html>
 
-        <form action="<?php echo FRONT_ROOT ;?> Admin/adminCinemas">
+        <form action="<?php echo FRONT_ROOT ?> Admin/adminCinemas">
 
         <button type="submit">Administrar Cines</button>
         </form>
