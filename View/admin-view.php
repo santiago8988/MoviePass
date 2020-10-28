@@ -13,17 +13,18 @@
 
 </html> -->
 
-<?php require_once("nav.php")?>
+
 
 
 
         
-        <form action="Admin/adminCinemas" method="get">
+
 
 
 <html>
 
-        <form action="<?php echo FRONT_ROOT ?> Admin/adminCinemas">
+
+        <form action="<?php echo FRONT_ROOT ?>Admin/adminCinemas">
 
         <button type="submit">Administrar Cines</button>
         </form>

@@ -42,6 +42,7 @@ class CinemaController
 
         $this->cinemaDAO->Add($cinema);
 
+        
         $this->ShowAddView();
 
     }

@@ -1,7 +1,7 @@
 
 <nav class = "navbar-main">
 
-    <a href = "index.php"><img src = "<?php echo IMG_PATH?>logo_page.png" alt = "<?php echo IMG_PATH?>logo_moviePass" class = "navbar-main_logo-page"></a>
+    <a href = "admin-view.php"><img src = "<?php echo IMG_PATH?>logo_page.png" alt = "logo_moviePass" class = "navbar-main_logo-page"></a>
 
     <ol class = "navbar-main_ol">
         <li>

@@ -16,6 +16,7 @@ class cinemaDAO
 
     public function Add(Cinema $newCinema)
     {
+        echo "entre al dao de agregar cine";
         $this->retrieveData();
         array_push($this->cinemaList,$newCinema);
         $this->saveData();

@@ -1,13 +1,29 @@
-<?php require_once("nav.php")?>;
 
+<?php
+
+require_once("nav.php");
+require_once("header.php");
+?>
 <html>
+
+
     
-    <div>
+        <form action="<?php echo FRONT_ROOT?>Admin/Add">
+            <button type="submit">Agregar Cine</button>
+        </form>
 
-        <a href = "add-cinema.php">Agregar cine</a>
+        <form action="<?php echo FRONT_ROOT?>Admin/cinemaList">
+            <button type="submit">Listar Cines</button>
+        </form>
 
-        <a href = "cinema-list.php">Listar cines</a>
 
-    </div>
-    
+        
+
 </html>
+
+
+<?php
+
+require_once("footer.php");
+
+?>

@@ -6,15 +6,8 @@
     class Router
     {
         public static function Route(Request $request)
-
-
         {
-
-            
             $controllerName = $request->getcontroller() . 'Controller';
-            
-            
-
 
             $methodName = $request->getmethod();
 
@@ -23,8 +16,7 @@
             $controllerClassName = "Controllers\\". $controllerName;            
 
             $controller = new $controllerClassName;
-
-        
+            
             if(!isset($methodParameters))            
                 call_user_func(array($controller, $methodName));
             else

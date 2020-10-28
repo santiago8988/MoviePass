@@ -10,7 +10,7 @@
                 <th>Precio</th>
             </thead>
             <tbody>
-                <form action = "<?php echo FRONT_ROOT ?> Admin/Remove" method = "POST">
+                <form action = "<?php echo FRONT_ROOT?>Remove" method = "POST">
                     <?php
                         if(isset($arryCinemas)){
                             foreach($arryCinemas as $cinema)

@@ -16,7 +16,7 @@ use Controllers\cinemaController as cinemaController;
         {
             
                
-               require_once(VIEWS_PATH."admin-view.php");
+            require_once(VIEWS_PATH."admin-view.php");
           
         }
 
@@ -29,6 +29,16 @@ use Controllers\cinemaController as cinemaController;
         public function movieList()
         {
             require_once(VIEWS_PATH."movie-list.php");
+        }
+
+        public function Add()
+        {
+            require_once(VIEWS_PATH."add-cinema.php");
+        }
+
+        public function cinemaList()
+        {
+            require_once (VIEWS_PATH."cinema-list");
         }
 
         
