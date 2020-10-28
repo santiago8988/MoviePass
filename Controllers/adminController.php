@@ -2,7 +2,7 @@
 
 namespace Controllers;
 
-    use Controllers\cinemaController as cinemaController;
+use Controllers\cinemaController as cinemaController;
    
 
     class AdminController{
@@ -14,11 +14,21 @@ namespace Controllers;
 
         public function Index()
         {
-            $cinemaController = new cinemaController();
+            
                
-
-               require_once(VIEWS_PATH."adminView.php");
+               require_once(VIEWS_PATH."admin-view.php");
           
+        }
+
+        public function adminCinemas()
+        {
+            
+            require_once(VIEWS_PATH."admin-cinema.php");
+        }
+
+        public function movieList()
+        {
+            require_once(VIEWS_PATH."movie-list.php");
         }
 
         

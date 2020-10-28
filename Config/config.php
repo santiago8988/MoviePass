@@ -8,6 +8,7 @@ define("FRONT_ROOT","/MoviePass/");
 define("VIEWS_PATH","View/");
 define("CSS_PATH",FRONT_ROOT.VIEWS_PATH."css/");
 define("JS_PATH",FRONT_ROOT.VIEWS_PATH."js/");
+define ("IMG_PATH",FRONT_ROOT.VIEWS_PATH."img/");
 
 
 
