@@ -1,6 +1,6 @@
 <html>
 
-    <form action = "<?php echo FRONT_ROOT?>Add" method = "POST">
+    <form action = "<?php echo FRONT_ROOT?>Cinema/Add" method = "POST">
 
         <label for = "cinema_name">Nombre</label>
         <input type = "text" name = "name" id = "name" required>

@@ -30,7 +30,7 @@
         </form>
 
 
-        <form action="<?php echo FRONT_ROOT?>Admin/movieList">
+        <form action="<?php echo FRONT_ROOT?>Movie/ShowListView">
 
             <button type="submit">Listar Peliculas Cines</button>
         </form>

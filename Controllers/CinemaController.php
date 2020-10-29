@@ -25,16 +25,16 @@ class CinemaController
 
     public function ShowListView()
     {
-        $cinemaList = $this->cinemaDAO->getAll();
+        $arrayCinemas = $this->cinemaDAO->getAll();
 
         require_once(VIEWS_PATH."cinema-list.php");
         
     }
 
-    public function Add($idCinema,$adress,$name,$room,$price)
+    public function Add($adress,$name,$room,$price)
     {
         $cinema= new Cinema();
-        $cinema->setIdCinema($idCinema);
+        
         $cinema->setAdress($adress);
         $cinema->setName($name);
         $cinema->setRoom($room);
@@ -45,6 +45,27 @@ class CinemaController
         
         $this->ShowAddView();
 
+    }
+
+    public function Remove($idCinema)
+    {
+        $this->cinemaDAO->delete($idCinema);
+        
+      $this->ShowListView();
+    }
+
+    public function Edit($idCinema)
+    {
+        $cinema = $this->cinemaDAO->searchCinema($idCinema);
+
+        require_once(VIEWS_PATH."editCinema.php");
+    }
+
+    public function update($id,$name,$adress,$room,$price)
+    {
+        $this->cinemaDAO->updateCinema($id,$name,$adress,$room,$price);
+
+        $this->ShowListView();
     }
 
 }

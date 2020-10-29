@@ -5,7 +5,7 @@ namespace Config;
 define ("ROOT",dirname(__DIR__)."/");
 
 //Path to your project's root folder
-define("FRONT_ROOT","");
+define("FRONT_ROOT","http://localhost/xampp/MoviePass/");
 define("VIEWS_PATH","View/");
 define("CSS_PATH",FRONT_ROOT.VIEWS_PATH."css/");
 define("JS_PATH",FRONT_ROOT.VIEWS_PATH."js/");

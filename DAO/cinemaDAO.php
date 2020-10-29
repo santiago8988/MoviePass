@@ -16,10 +16,51 @@ class cinemaDAO
 
     public function Add(Cinema $newCinema)
     {
-        echo "entre al dao de agregar cine";
+
         $this->retrieveData();
+        $newCinema->setIdCinema(count($this->cinemaList)+1);
         array_push($this->cinemaList,$newCinema);
         $this->saveData();
+    }
+
+    public function searchCinema($idCinema)
+    {
+        $cinemaList= $this->getAll();
+        foreach($cinemaList as $cinema)
+        {
+            if($cinema->getIdCinema()==$idCinema)
+            {
+                $editCinema = new Cinema($cinema->getIdCinema(),$cinema->getName(),$cinema->getAdress(),$cinema->getRoom(),$cinema->getPrice());
+                return $editCinema;
+            }
+        }
+        
+    }
+
+    public function updateCinema($id,$name,$adress,$room,$price)
+    {
+        $cinemaList= $this->getAll();   
+
+        
+        foreach($cinemaList as $cinema)
+        {
+            if($cinema->getIdCinema()==$id)
+            {
+                
+                $cinema->setName($name);
+                $cinema->setAdress($adress);
+                $cinema->setRoom($room);
+                $cinema->setPrice($price);
+
+               
+            }
+
+
+        }
+
+        $this->saveData();
+
+
     }
 
     public function delete($id)
@@ -49,7 +90,7 @@ class cinemaDAO
 
         foreach ($arrayToDecode as $valueArray)
         {
-            $cinema = new Cinema($valueArray['idCinema'],$valueArray['adress'],$valueArray['name'],$valueArray['room'],$valueArray['price'],);
+            $cinema = new Cinema($valueArray['idCinema'],$valueArray['adress'],$valueArray['name'],$valueArray['room'],$valueArray['price']);
 
             array_push($this->cinemaList,$cinema);
         }
@@ -67,7 +108,7 @@ class cinemaDAO
                 $valueArray['room']=$cinema->getRoom();
                 $valueArray['price']=$cinema->getPrice();
 
-                array_push($arrayToDecode,$valueArray);
+                array_push($arrayToEncode,$valueArray);
                 
             }
 

@@ -3,6 +3,7 @@
 namespace Controllers;
 
 use Controllers\cinemaController as cinemaController;
+use DAO\cinemaDAO as cinemaDAO;
    
 
     class AdminController{
@@ -33,12 +34,15 @@ use Controllers\cinemaController as cinemaController;
 
         public function Add()
         {
+            
             require_once(VIEWS_PATH."add-cinema.php");
         }
 
         public function cinemaList()
         {
-            require_once (VIEWS_PATH."cinema-list");
+            $cinemaDAO= new cinemaDAO();
+            $arrayCinemas= $cinemaDAO->getAll();
+            require_once(VIEWS_PATH."cinema-list.php");
         }
 
         
