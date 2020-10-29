@@ -5,21 +5,30 @@
         "overview": "The work of billionaire tech CEO Donovan Chalmers is so valuable that he hires mercenaries to protect it, and a terrorist group kidnaps his daughter just to get it.",
         "adult": "Mayores",
         "vote_average": 4.2,
-        "vote_count": 23,
+        "vote_count": 28,
         "original_language": "en",
         "release_date": "2020-10-23",
-        "id": 724989
+        "id": 724989,
+        "gender": [
+            "Action",
+            "Thriller"
+        ]
     },
     {
         "title": "2067",
         "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg",
         "overview": "A lowly utility worker is called to the future by a mysterious radio signal, he must leave his dying wife to embark on a journey that will force him to face his deepest fears in an attempt to change the fabric of reality and save humankind from its greatest environmental crisis yet.",
         "adult": "Mayores",
-        "vote_average": 5.5,
-        "vote_count": 193,
+        "vote_average": 5.4,
+        "vote_count": 198,
         "original_language": "en",
         "release_date": "2020-10-01",
-        "id": 528085
+        "id": 528085,
+        "gender": [
+            "Drama",
+            "Science Fiction",
+            "Thriller"
+        ]
     },
     {
         "title": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
@@ -27,65 +36,68 @@
         "overview": "Tanjir\u014d Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Ky\u014djur\u014d Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
         "adult": "Mayores",
         "vote_average": 7.5,
-        "vote_count": 18,
+        "vote_count": 20,
         "original_language": "ja",
         "release_date": "2020-10-16",
-        "id": 635302
-    },
-    {
-        "title": "Love and Monsters",
-        "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/r4Lm1XKP0VsTgHX4LG4syAwYA2I.jpg",
-        "overview": "Seven years after the Monsterpocalypse, Joel Dawson, along with the rest of humanity, has been living underground ever since giant creatures took control of the land. After reconnecting over radio with his high school girlfriend Aimee, who is now 80 miles away at a coastal colony, Joel begins to fall for her again. As Joel realizes that there\u2019s nothing left for him underground, he decides against all logic to venture out to Aimee, despite all the dangerous monsters that stand in his way.",
-        "adult": "Mayores",
-        "vote_average": 7.6,
-        "vote_count": 183,
-        "original_language": "en",
-        "release_date": "2020-10-16",
-        "id": 590223
+        "id": 635302,
+        "gender": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Drama",
+            "Fantasy",
+            "History"
+        ]
     },
     {
         "title": "Roald Dahl's The Witches",
         "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
         "overview": "In late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered.",
         "adult": "Mayores",
-        "vote_average": 7.2,
-        "vote_count": 233,
+        "vote_average": 7.3,
+        "vote_count": 275,
         "original_language": "en",
         "release_date": "2020-10-26",
-        "id": 531219
+        "id": 531219,
+        "gender": [
+            "Adventure",
+            "Comedy",
+            "Fantasy",
+            "Horror",
+            "Family"
+        ]
     },
     {
-        "title": "Mulan",
-        "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
-        "overview": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
+        "title": "Love and Monsters",
+        "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/r4Lm1XKP0VsTgHX4LG4syAwYA2I.jpg",
+        "overview": "Seven years after the Monsterpocalypse, Joel Dawson, along with the rest of humanity, has been living underground ever since giant creatures took control of the land. After reconnecting over radio with his high school girlfriend Aimee, who is now 80 miles away at a coastal colony, Joel begins to fall for her again. As Joel realizes that there\u2019s nothing left for him underground, he decides against all logic to venture out to Aimee, despite all the dangerous monsters that stand in his way.",
         "adult": "Mayores",
-        "vote_average": 7.3,
-        "vote_count": 2643,
+        "vote_average": 7.7,
+        "vote_count": 188,
         "original_language": "en",
-        "release_date": "2020-09-04",
-        "id": 337401
-    },
-    {
-        "title": "Rogue",
-        "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/uOw5JD8IlD546feZ6oxbIjvN66P.jpg",
-        "overview": "Battle-hardened O\u2019Hara leads a lively mercenary team of soldiers on a daring mission: rescue hostages from their captors in remote Africa. But as the mission goes awry and the team is stranded, O\u2019Hara\u2019s squad must face a bloody, brutal encounter with a gang of rebels.",
-        "adult": "Mayores",
-        "vote_average": 5.9,
-        "vote_count": 323,
-        "original_language": "en",
-        "release_date": "2020-08-20",
-        "id": 718444
+        "release_date": "2020-10-16",
+        "id": 590223,
+        "gender": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Science Fiction"
+        ]
     },
     {
         "title": "After We Collided",
         "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/kiX7UYfOpYrMFSAGbI6j1pFkLzQ.jpg",
         "overview": "Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever.",
         "adult": "Mayores",
-        "vote_average": 7.1,
-        "vote_count": 880,
+        "vote_average": 7.2,
+        "vote_count": 964,
         "original_language": "en",
         "release_date": "2020-09-02",
-        "id": 613504
+        "id": 613504,
+        "gender": [
+            "Drama",
+            "Romance"
+        ]
     },
     {
         "title": "Ava",
@@ -93,10 +105,16 @@
         "overview": "A black ops assassin is forced to fight for her own survival after a job goes dangerously wrong.",
         "adult": "Mayores",
         "vote_average": 5.8,
-        "vote_count": 539,
+        "vote_count": 541,
         "original_language": "en",
         "release_date": "2020-07-02",
-        "id": 539885
+        "id": 539885,
+        "gender": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller"
+        ]
     },
     {
         "title": "Money Plane",
@@ -104,10 +122,30 @@
         "overview": "A professional thief with $40 million in debt and his family's life on the line must commit one final heist - rob a futuristic airborne casino filled with the world's most dangerous criminals.",
         "adult": "Mayores",
         "vote_average": 5.9,
-        "vote_count": 153,
+        "vote_count": 154,
         "original_language": "en",
         "release_date": "2020-09-29",
-        "id": 694919
+        "id": 694919,
+        "gender": [
+            "Action"
+        ]
+    },
+    {
+        "title": "Mulan",
+        "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
+        "overview": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
+        "adult": "Mayores",
+        "vote_average": 7.3,
+        "vote_count": 2656,
+        "original_language": "en",
+        "release_date": "2020-09-04",
+        "id": 337401,
+        "gender": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ]
     },
     {
         "title": "Peninsula",
@@ -115,10 +153,32 @@
         "overview": "A soldier and his team battle hordes of post-apocalyptic zombies in the wastelands of the Korean Peninsula.",
         "adult": "Mayores",
         "vote_average": 7,
-        "vote_count": 670,
+        "vote_count": 673,
         "original_language": "ko",
         "release_date": "2020-07-15",
-        "id": 581392
+        "id": 581392,
+        "gender": [
+            "Action",
+            "Horror",
+            "Thriller"
+        ]
+    },
+    {
+        "title": "Rogue",
+        "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/uOw5JD8IlD546feZ6oxbIjvN66P.jpg",
+        "overview": "Battle-hardened O\u2019Hara leads a lively mercenary team of soldiers on a daring mission: rescue hostages from their captors in remote Africa. But as the mission goes awry and the team is stranded, O\u2019Hara\u2019s squad must face a bloody, brutal encounter with a gang of rebels.",
+        "adult": "Mayores",
+        "vote_average": 5.9,
+        "vote_count": 324,
+        "original_language": "en",
+        "release_date": "2020-08-20",
+        "id": 718444,
+        "gender": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Thriller"
+        ]
     },
     {
         "title": "Alone",
@@ -129,18 +189,10 @@
         "vote_count": 54,
         "original_language": "en",
         "release_date": "2020-09-10",
-        "id": 509635
-    },
-    {
-        "title": "My Hero Academia: Heroes Rising",
-        "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/zGVbrulkupqpbwgiNedkJPyQum4.jpg",
-        "overview": "Class 1-A visits Nabu Island where they finally get to do some real hero work. The place is so peaceful that it's more like a vacation \u2026 until they're attacked by a villain with an unfathomable Quirk! His power is eerily familiar, and it looks like Shigaraki had a hand in the plan. But with All Might retired and citizens' lives on the line, there's no time for questions. Deku and his friends are the next generation of heroes, and they're the island's only hope.",
-        "adult": "Mayores",
-        "vote_average": 8.6,
-        "vote_count": 451,
-        "original_language": "ja",
-        "release_date": "2019-12-20",
-        "id": 592350
+        "id": 509635,
+        "gender": [
+            "Thriller"
+        ]
     },
     {
         "title": "The War with Grandpa",
@@ -151,7 +203,12 @@
         "vote_count": 92,
         "original_language": "en",
         "release_date": "2020-08-27",
-        "id": 425001
+        "id": 425001,
+        "gender": [
+            "Comedy",
+            "Drama",
+            "Family"
+        ]
     },
     {
         "title": "Trolls World Tour",
@@ -159,21 +216,33 @@
         "overview": "Queen Poppy and Branch make a surprising discovery \u2014 there are other Troll worlds beyond their own, and their distinct differences create big clashes between these various tribes. When a mysterious threat puts all of the Trolls across the land in danger, Poppy, Branch, and their band of friends must embark on an epic quest to create harmony among the feuding Trolls to unite them against certain doom.",
         "adult": "Mayores",
         "vote_average": 7.6,
-        "vote_count": 1237,
+        "vote_count": 1239,
         "original_language": "en",
         "release_date": "2020-03-12",
-        "id": 446893
+        "id": 446893,
+        "gender": [
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Fantasy",
+            "Music",
+            "Family"
+        ]
     },
     {
         "title": "Cats & Dogs 3: Paws Unite",
         "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/4BgSWFMW2MJ0dT5metLzsRWO7IJ.jpg",
         "overview": "It's been ten years since the creation of the Great Truce, an elaborate joint-species surveillance system designed and monitored by cats and dogs to keep the peace when conflicts arise. But when a tech-savvy villain hacks into wireless networks to use frequencies only heard by cats and dogs, he manipulates them into conflict and the worldwide battle between cats and dogs is BACK ON. Now, a team of inexperienced and untested agents will have to use their old-school animal instincts to restore order and peace between cats and dogs everywhere.",
         "adult": "Mayores",
-        "vote_average": 6.6,
-        "vote_count": 86,
+        "vote_average": 6.5,
+        "vote_count": 87,
         "original_language": "en",
         "release_date": "2020-10-02",
-        "id": 726739
+        "id": 726739,
+        "gender": [
+            "Action",
+            "Comedy"
+        ]
     },
     {
         "title": "Rebecca",
@@ -181,10 +250,16 @@
         "overview": "After a whirlwind romance with a wealthy widower, a na\u00efve bride moves to his family estate but can't escape the haunting shadow of his late wife.",
         "adult": "Mayores",
         "vote_average": 6.4,
-        "vote_count": 210,
+        "vote_count": 224,
         "original_language": "en",
         "release_date": "2020-10-16",
-        "id": 505379
+        "id": 505379,
+        "gender": [
+            "Drama",
+            "Mystery",
+            "Thriller",
+            "Romance"
+        ]
     },
     {
         "title": "Reaptown",
@@ -195,7 +270,10 @@
         "vote_count": 2,
         "original_language": "en",
         "release_date": "2020-09-28",
-        "id": 748224
+        "id": 748224,
+        "gender": [
+            "Horror"
+        ]
     },
     {
         "title": "The Outpost",
@@ -203,10 +281,16 @@
         "overview": "A small unit of U.S. soldiers, alone at the remote Combat Outpost Keating, located deep in the valley of three mountains in Afghanistan, battles to defend against an overwhelming force of Taliban fighters in a coordinated attack. The Battle of Kamdesh, as it was known, was the bloodiest American engagement of the Afghan War in 2009 and Bravo Troop 3-61 CAV became one of the most decorated units of the 19-year conflict.",
         "adult": "Mayores",
         "vote_average": 6.7,
-        "vote_count": 407,
+        "vote_count": 408,
         "original_language": "en",
         "release_date": "2020-06-24",
-        "id": 531876
+        "id": 531876,
+        "gender": [
+            "Action",
+            "Drama",
+            "History",
+            "War"
+        ]
     },
     {
         "title": "Spontaneous",
@@ -217,6 +301,29 @@
         "vote_count": 38,
         "original_language": "en",
         "release_date": "2020-10-02",
-        "id": 604578
+        "id": 604578,
+        "gender": [
+            "Comedy",
+            "Horror",
+            "Science Fiction",
+            "Romance"
+        ]
+    },
+    {
+        "title": "12 Hour Shift",
+        "poster_path": "http:\/\/image.tmdb.org\/t\/p\/w500\/c3SbZPZPOfGMHq7DB7FnTIMQKuY.jpg",
+        "overview": "It's 1998 and over the course of one 12-hour shift at an Arkansas hospital, a junkie nurse, her scheming cousin and a group of black market organ-trading criminals start a heist that could lead to their collective demise.",
+        "adult": "Mayores",
+        "vote_average": 5,
+        "vote_count": 62,
+        "original_language": "en",
+        "release_date": "2020-10-02",
+        "id": 667141,
+        "gender": [
+            "Comedy",
+            "Crime",
+            "Horror",
+            "Thriller"
+        ]
     }
 ]

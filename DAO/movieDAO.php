@@ -3,6 +3,8 @@
 namespace DAO;
 
 use Models\Movie as Movie;
+use DAO\gendreDAO as gendreDAO;
+use Models\Gendre as Gendre;
 
 class movieDAO
 {
@@ -12,6 +14,8 @@ class movieDAO
     public function getAll ()
     {
         $this->retrieveData();
+
+        
 
         return $this->movieList;
     }
@@ -31,7 +35,9 @@ class movieDAO
             {
                 $movie= new Movie($valueArray['title'],$valueArray['poster_path'],
                                     $valueArray['overview'],$valueArray['adult'],$valueArray['vote_average'],$valueArray['vote_count'],
-                                    $valueArray['original_language'],$valueArray['release_date'],$valueArray['id'],'ficcion');
+                                    $valueArray['original_language'],$valueArray['release_date'],$valueArray['id']);
+
+                $movie->setGender($valueArray['gender']);
 
                 array_push($this->movieList,$movie);
             }
@@ -53,6 +59,7 @@ class movieDAO
             $valueArray['original_language']=$movie->getOriginalLanguage();
             $valueArray['release_date']=$movie->getReleaseDate();
             $valueArray['id']=$movie->getIdMovie();
+            $valueArray['gender']=$movie->getGender();
 
             array_push($arrayToEncode,$valueArray);
 
@@ -69,15 +76,11 @@ class movieDAO
 
         $jsonContent = file_get_contents("https://api.themoviedb.org/3/movie/now_playing?api_key=".API_KEY."&language=en-US&page=1",true);
 
+
+        $arrayToDecode=($jsonContent) ? json_decode($jsonContent,true):array();
         
-
-        $arrayToDecode=json_decode($jsonContent,true);
-
-
         foreach ($arrayToDecode['results'] as $valueArray)
         {
-            
-           
             
                 $movie = new Movie();
                
@@ -90,17 +93,29 @@ class movieDAO
                 $movie->setOriginalLanguage( $valueArray['original_language']);
                 $movie->setReleaseDate($valueArray['release_date']);
                 $movie->setIdMovie($valueArray['id']);
-                $movie->setGender('ficcion');
+               
+                $gender_IDS=array();
+                $gender_IDS=$valueArray['genre_ids'];
 
-                /*$valueArray['title'],$valueArray['poster_path'],
-                $valueArray['overview'],$valueArray['adult'],$valueArray['vote_average'],$valueArray['vote_count'],
-                $valueArray['original_language'],$valueArray['release_date'],$valueArray['id'],"ficcion"*/
+                $genderDAO= new gendreDAO();
+                $genderList= $genderDAO->getAll();
+
+                foreach ($gender_IDS as $genderID)
+                {
+                    foreach ($genderList as $gender)
+                    {
+                        if($genderID==$gender->getIdGender())
+                        {
+                            $array=$movie->getGender();
+                            array_push($array,$gender->getGenderName());
+                            $movie->setGender($array);
+
+                        }
+                    }
+                }
 
                 array_push($this->movieList,$movie);
-                //var_dump($this->movieList);
-           
-
-          
+                  
         }
 
        $this->saveData();

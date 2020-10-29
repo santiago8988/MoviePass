@@ -17,7 +17,7 @@
         private $gender;
 
 
-        public function __construct($movieName="",$photo="",$overView="",$classification="",$voteAverage="",$voteCount="",$originalLanguage="",$realeseDate="",$idMovie="",$gender="")
+        public function __construct($movieName="",$photo="",$overView="",$classification="",$voteAverage="",$voteCount="",$originalLanguage="",$realeseDate="",$idMovie="")
         {
             $this->idMovie=$idMovie;
             $this->movieName=$movieName;
@@ -28,11 +28,9 @@
             $this->voteCount=$voteCount;
             $this->originalLanguage=$originalLanguage;
             $this->realeseDate=$realeseDate;
-            $this->gender=$gender;
+            $this->gender=array();
         }
 
-
-        
 
         /**
          */
@@ -205,7 +203,23 @@
         {
             $this->gender=$gender;
         }
+        /**
+         */
+        public function printGender()
+        {
+            
+            $array=$this->getGender();
 
-    }
+           $implodeArray = implode(",",$array);
+
+           echo $implodeArray;
+            
+
+        }
+    
+        
+
+
+     }
 
 ?>
