@@ -12,5 +12,12 @@
         "name": "dsadsadsa",
         "room": "dsasadasd",
         "price": "dasdasasd"
+    },
+    {
+        "idCinema": 3,
+        "adress": "pato",
+        "name": "lala 45",
+        "room": "lalal",
+        "price": "lalaa"
     }
 ]
